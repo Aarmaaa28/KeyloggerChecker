@@ -37,7 +37,6 @@ client.on('messageCreate', async (message) =>
     if (!(message.channel.id === "1376723676765884496" || message.channel.type === 1)) return;
     
     const attachment = message.attachments.first();
-    if (!attachment) return;
 
     if (!message.attachments.size) 
     {
